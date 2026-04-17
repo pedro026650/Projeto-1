@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: #0F0F11;
+}
+
+nav.menu-lateral {
+    width: 120px;
+    height: 200%;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 3px 0 0 #b19abd;
+}
+
+.expandir h2 {
+    width: 100%;
+    padding-left: 250px;
+    color: beige;
+    font-size: 30px;
+    position: relative;
+    top: -30px;
+
+
+
+}
+
+.expandir h3 {
+    width: 100%;
+    padding-left: 400px;
+    color: #737a9c;
+    white-space: nowrap;
+    font-size: 15px;
+
+}
+
+.expandir h1 {
+    width: 100%;
+    padding-left: 400px;
+    white-space: nowrap;
+    color: beige;
+    font-size: 40px;
+}
+
+.expandir i {
+    color: #737a9c;
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+    padding-left: 200px;
+
+}
+
+.item-menu a {
+    height: 100%;
+    list-style-type: none;
+    text-decoration: none;
+    color: #737a9c;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+
+}
+
+.ul li.item-menu {
+    transition: .4s;
+}
+
+.ul li.item-menu:hover {
+    background: #b19abd;
+}
+
+.ul li.item-menu a .text {
+    margin-left: 15px;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    padding-left: 400px;
+    white-space: nowrap;
+    list-style-type: none;
+    text-decoration: none;
+    position: relative;
+    top: 30px
+}
+
+
+
+.menu a {
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+    color: #b5b5b5;
+    padding-left: 20px;
+
+}
+
+.menu i {
+    display: flex;
+    align-items: start;
+    color: #b5b5b5;
+}
+
+.sessoes {
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding-left: 400px;
+    top: 130px;
+    white-space: nowrap;
+    gap: 120px;
+
+}
+
+.sessoes h5 {
+    color: beige;
+    border: 1px solid #77767C;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sessoes h5:hover {
+    background: #77767C;
+    transition: .2s;
+}
+
+.menu h5 {
+    display: flex;
+    white-space: nowrap;
+}
+
+
+
+
+.main h4 {
+    padding-left: 400px;
+}
+
+
+
+.agendamentos {
+    display: flex;
+    position: relative;
+    top: -20px;
+    white-space: nowrap;
+    gap: 600px;
+
+}
+
+.calendario {
+    color: #737a9c;
+    font-size: 12px;
+    position: relative;
+    top: -20px;
+
+}
+
+.agendamentos h4 {
+    color: beige;
+    font-size: 20px;
+    padding-left: 400px;
+    display: flex;
+    position: relative;
+    top: -20px;
+    white-space: nowrap;
+    gap: 600px;
+}
+
+.schedule-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-left: 540px;
+    white-space: nowrap;
+    color: #EDEDED;
+    border-radius: 12px;
+}
+
+.schedule-item {
+    border-bottom: 1px solid #2A2A2E;
+    padding: 20px 4%;
+    list-style-type: none;
+}
+
+.schedule-info {
+    color: beige;
+    padding-left: 70px
+}
+
+.hora-time {
+    position: relative;
+    top: 22px;
+    color: #737a9c;
+}
+
+.tempo-time {
+    position: relative;
+    top: 22px;
+    color: #737a9c;
+}
+
+.time {
+    position: relative;
+    top: 22px;
+    color: #737a9c;
+}
+
+.schedule-details {
+    color: #737a9c;
+}
+
+.badge-confirmed {
+    position: relative;
+    left: 700px;
+    top: -30px;
+    color: #737a9c;
+    font-size: 12px;
+    background-color: rgba(59, 130, 246, 0.15);
+}
+
+.more-btn {
+    background: none;
+    border: none;
+    color: #8A8A8E;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 4px 8px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 720px;
+    top: -30px;
+}
+
+.more-btn1 {
+    background: none;
+    border: none;
+    color: #8A8A8E;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 4px 8px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 720px;
+    top: -30px;
+}
+
+.more-btn2 {
+    background: none;
+    border: none;
+    color: #8A8A8E;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 4px 8px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 740px;
+    top: -30px;
+}
+
+
+
+.badge-recording {
+    position: relative;
+    left: 700px;
+    top: -30px;
+    color: #737a9c;
+    font-size: 12px;
+    background-color: rgba(236, 72, 153, 0.15);
+}
+
+
+.badge-pecording {
+    position: relative;
+    left: 720px;
+    top: -30px;
+    color: #737a9c;
+    font-size: 12px;
+    background-color: rgba(115, 115, 0.2);
+}
+
+.schedule-add-btn {
+    width: fit-content;
+    background-color: transparent;
+    border: 1px solid #2A2A2E;
+    color: #737a9c;
+    padding: 8px 16px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+    cursor: pointer;
+    display: flex;
+    white-space: nowrap;
+    gap: 8px;
+    transition: background-color 0.2s;
+}
+
+
+
+
+
+section.formulario {
+    padding: 80px 4%;
+    margin-top: -500px;
+}
+
+.interface h2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -10px;
+    color: #737a9c;
+
+}
+
+
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 8px;
+}
+
+.form input,
+form textarea {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: beige;
+    font-size: 18px;
+}
+
+.form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+.btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.btn-enviar input {
+    width: 120px;
+    background-color: #2A2A2E;
+    font-weight: 700px;
+    cursor: pointer;
+    box-shadow: #b19abd;
+}
+
+.icons-final {
+    color: #737a9c;
+    font-size: 40px;
+    position: relative;
+    top: -20px;
+    display: block;
+    padding-left: 15px
+}
+
+/*  ESTILO DO RODAPÉ */
+
+footer {
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+
+
+
+
+
+.flex {
+    display: flex;
+}
+
+
+footer .flex {
+    justify-content: space-between;
+}
+
+.logo-footer i {
+    width: 60px;
+    height: 60px;
+    border: none;
+    color: beige;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+.btn-social button {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+
+
+footer .line-email {
+    padding: 20px 0px;
+}
+
+.borda {
+    border-top: 2px solid #2A2A2E;
+}
+
+footer .line-email p {
+    color: beige;
+    font-size: 20px;
+}
+
+footer .line-email p a {
+    color: #737a9c;
+}
